@@ -11,8 +11,8 @@ This file defines the fixed variables of the game:
 import random
 
 # Step 1: Set the dimensions of the game screen (replace None with integer values)
-MIN_WIDTH = None  # Example: 320
-MIN_HEIGHT = None  # Example: 240
+MIN_WIDTH = 320  # Example: 320
+MIN_HEIGHT = 320  # Example: 240
 
 # Step 2: Define the tile size (fixed at 16 pixels)
 TILESIZE = 16
@@ -22,8 +22,8 @@ BLOCK_LAYER = 2
 GROUND_LAYER = 1
 
 # Step 4: Set frames per second (FPS) and background color (RGB format)
-FPS = 
-BG_COLOR = (None, None, None)  # Example: (123,168,66) for green
+FPS = 120
+BG_COLOR = (65, 134, 8)  # Example: (123,168,66) for green
 
 # Step 5: Create a custom tilemap, or randomly generate one
 # 'B' = Block (tree), 'G' = Ground (grass)
