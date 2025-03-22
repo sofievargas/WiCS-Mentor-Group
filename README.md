@@ -65,8 +65,7 @@ The   self.image = self.game.player_sheet.get_image(1,0) is used to get the left
 Next, in main.py, add this to your game class __init__ function:  self.player_sheet = Spritesheet('characters.png')
 
 This will allow your player to access the character images.
-![Alt text](https://raw.githubusercontent.com/sofievargas/WiCS-Mentor-Group/characters.png)
-
+![Alt text](https://github.com/sofievargas/WiCS-Mentor-Group/blob/fdd764f3f41fcdd777dc43b7865f82ed845fd0de/characters.png)
 
 Finally, in your createTileMap function, add a new ifstatement to check if tilemap[I][j] is ‘P’. If so, create a new player object with:
 self.player = Player(self, i,j)
