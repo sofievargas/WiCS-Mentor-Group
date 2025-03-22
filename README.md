@@ -4,12 +4,16 @@ For this week, we will add our player and our inventory!
 Step 1:
 it turns out we were using the wrong version of pygame :D. The most updated version is in fact called pygame-ce (which is the community edition)
 First, uninstall the current pygame by putting these commands in your vscode terminal:
+
 pip uninstall pygame
 
 Then, install pygame-ce:
+
 pip install pygame-ce
 
-And confirm that pygame-ce is being used: python -c "import pygame; print(pygame.__file__); print(pygame.version.ver)"
+And confirm that pygame-ce is being used: 
+
+python -c "import pygame; print(pygame.__file__); print(pygame.version.ver)"
 
 Next we will install pygame_gui, which will allow us to make a button and window for our inventory. Run this command in vscode terminal: pip install pygame pygame_gui
 
@@ -65,6 +69,8 @@ The   self.image = self.game.player_sheet.get_image(1,0) is used to get the left
 Next, in main.py, add this to your game class __init__ function:  self.player_sheet = Spritesheet('characters.png')
 
 This will allow your player to access the character images.
+
+
 ![Alt text](https://github.com/sofievargas/WiCS-Mentor-Group/blob/fdd764f3f41fcdd777dc43b7865f82ed845fd0de/characters.png)
 
 Finally, in your createTileMap function, add a new ifstatement to check if tilemap[I][j] is ‘P’. If so, create a new player object with:
