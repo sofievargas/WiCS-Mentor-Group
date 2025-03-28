@@ -1,0 +1,27 @@
+{
+    "window": {
+        "colours":{
+            "dark_bg" : "#123456"
+        }
+    },
+    "text_box": {
+        "colours" : {
+            "link_text" : "#FFFFFF"
+        }
+    },
+    "button":
+    {
+        "images":
+        {
+            "normal_image": {
+                "path" : "chest2.png",
+                "sub_surface_rect": "0,0,32,32"
+            },
+            "hovered_image": {
+                "path" : "chest2.png",
+                "sub_surface_rect": "32,0,32,32"
+            }
+
+        }
+    }
+}
